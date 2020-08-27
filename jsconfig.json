@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "target": "es2017",
+    "allowSyntheticDefaultImports": false,
+    "baseUrl": "./src",
+    "paths": {
+      "globals/*": ["src/globals/*"],
+      "hoc/*": ["src/globals/hoc/*"],
+      "utils/*": ["src/utils/*"],
+      "assets/*": ["src/assets/*"],
+      "modules/*": ["src/modules/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
